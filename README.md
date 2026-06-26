@@ -328,9 +328,10 @@ The dashboard enables users to:
 
 ## Dashboard Screenshots
 
-## Dashboard Screenshots
-
+1ST page
 ![Dashboard Screenshot 1](12.png)
+
+2ND page
 ![Dashboard Screenshot 2](52.png)
 
 
