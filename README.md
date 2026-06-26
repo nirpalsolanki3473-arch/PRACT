@@ -326,6 +326,16 @@ The dashboard enables users to:
 
 ---
 
+## Dashboard Screenshots
+
+### Screenshot 1
+![Dashboard Screenshot 1](images/Screenshot%202026-06-26%20130952.png)
+
+
+### Screenshot 2
+![Dashboard Screenshot 2](images/Screenshot%202026-06-26%20131012.png)
+
+
 # 📌 Future Improvements
 
 - Drill-through pages
