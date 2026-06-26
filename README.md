@@ -329,10 +329,10 @@ The dashboard enables users to:
 ## Dashboard Screenshots
 
 1ST page
-![Dashboard Screenshot 1](12.png)
+![Dashboard Screenshot 1](52.png)
 
 2ND page
-![Dashboard Screenshot 2](52.png)
+![Dashboard Screenshot 2](12.png)
 
 
 # 📌 Future Improvements
