@@ -1,0 +1,34 @@
+1. % Score =
+DIVIDE(
+    SUM('Scores - Scores csv'[Score]),
+    SUM('Scores - Scores csv'[MaxScore]),
+    0
+)
+
+
+2. Average Score per Subject =
+AVERAGE('Scores - Scores csv'[Score])
+
+
+3. Performance Category =
+SWITCH(
+    TRUE(),
+    DIVIDE('Scores - Scores csv'[Score], 'Scores - Scores csv'[MaxScore], 0) * 100 >= 80, "High",
+    DIVIDE('Scores - Scores csv'[Score], 'Scores - Scores csv'[MaxScore], 0) * 100 >= 50, "Medium",
+    "Low"
+)
+
+
+4. Behavior Count per Type =
+COUNTROWS('Behavior - Behavior csv')
+
+
+5. Attendance % =
+DIVIDE(
+    CALCULATE(
+        COUNTROWS('Attendance - Attendance csv'),
+        'Attendance - Attendance csv'[Status] = "Present"
+    ),
+    COUNTROWS('Attendance - Attendance csv'),
+    0
+)
