@@ -330,11 +330,8 @@ The dashboard enables users to:
 
 ## Dashboard Screenshots
 
-### Screenshot 1
-![Dashboard Screenshot 1](images/12.PNG)
-
-### Screenshot 2
-![Dashboard Screenshot 2](images/52.PNG)
+![Dashboard Screenshot 1](12.png)
+![Dashboard Screenshot 2](52.png)
 
 
 # 📌 Future Improvements
